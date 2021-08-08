@@ -19,6 +19,7 @@ def submit_form():
     else:
         return "Something went wrong"
 
+
 def write_to_file(data):
     with open('database.txt', mode='a') as database:
         email = data["email"]
